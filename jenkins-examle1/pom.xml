@@ -43,6 +43,8 @@
 
 	<build>
 		<plugins>
+
+
 			<plugin>
 				<groupId>org.springframework.boot</groupId>
 				<artifactId>spring-boot-maven-plugin</artifactId>
@@ -50,4 +52,26 @@
 		</plugins>
 	</build>
 
+
+	<repositories>
+		<repository>
+			<id>myMavenRepo.read</id>
+			<url> https://mymavenrepo.com/repo/3t1Omz9kJkszL43DV13s/</url>
+		</repository>
+	</repositories>
+
+
+	<distributionManagement>
+		<repository>
+			<id>myMavenRepo.write</id>
+			<url>https://mymavenrepo.com/repo/kAqNSS1yI3wsCMX6kPoL/</url>
+		</repository>
+	</distributionManagement>
+
+
+
 </project>
+
+
+
+
